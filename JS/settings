@@ -1,2 +1,42 @@
-var name="XaTA";
+var name="XaTA";  //add a variable
 	alert("Hello"+name+"!");
+
+
+
+var MyDiv= document.getElementsByTagName('section');
+var MyDiv= document.getElementById('section');
+var MyDiv= document.getElementsByClassName('section');
+
+
+MyDiv.innerHTML="Hello world"; //write some text in block, with idea 'section'
+
+//default
+$(document).ready(function(){
+});
+
+//selectors
+$('div').
+$('#name').
+$('.name').
+$('div#name').
+$('div.name').
+$('div:empty').
+$('div:first').  		//add some settings to the first block div in page
+$('div:fast').  		//add some settings to the last block div in page
+$('div.name > *'). 		//chooses all elements in block div.name
+$('div.name > p').		//or any tag
+$('div.name + p').		//
+$(this).
+
+//methods
+.click();
+.css('color','red');
+.css({
+	'color':'red',
+	'width':'200px'
+});
+.text();
+.remoteAttr('');
+.children('');
+.parent();
+.parents();
