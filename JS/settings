@@ -1,0 +1,2 @@
+var name="XaTA";
+	alert("Hello"+name+"!");
